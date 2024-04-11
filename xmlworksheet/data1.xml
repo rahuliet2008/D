@@ -1,0 +1,13 @@
+<interface>
+  <name xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0">{name}</name>
+  <description>{description}</description>
+  <type xmlns:ianaift="urn:ietf:params:xml:ns:yang:iana-if-type">ianaift:ethernetCsmacd</type>
+  <enabled>{enabled}</enabled>
+  <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
+     <address>
+        <ip>{ip}</ip>
+        <netmask>{netmask}</netmask>
+     </address>
+  </ipv4>
+  <ipv6 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip"/>
+</interface>
